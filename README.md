@@ -1,4 +1,4 @@
-# HelpA — Quick Search Chrome Extension
+# HELPA — Quick Search Chrome Extension
 
 > **Stop opening extra tabs just to look up a term.**
 
@@ -10,7 +10,7 @@
 
 While reading articles, research papers, or anything on the web, we often come across **difficult words, technical terms, or concepts** we don't understand. The usual solution? Open a new tab, search it, and lose your reading flow.
 
-**HelpA fixes that.**
+**HELPA fixes that.**
 
 Just open the extension, type the word or term you want to understand, and get a clear, short answer — right inside the popup. No extra tabs. No distractions. Keep reading.
 
@@ -61,7 +61,7 @@ Since this extension is not yet on the Chrome Web Store, you can load it manuall
 
 4. Click **"Load unpacked"**
 
-5. Select the **HelpA folder** (the one containing `manifest.json`)
+5. Select the **HELPA folder** (the one containing `manifest.json`)
 
 6. The extension icon will appear in your Chrome toolbar ✅
 
@@ -69,7 +69,7 @@ Since this extension is not yet on the Chrome Web Store, you can load it manuall
 
 ## 🧭 How to Use
 
-1. **Click the HelpA icon** in the Chrome toolbar to open the popup
+1. **Click the HELPA icon** in the Chrome toolbar to open the popup
 
 2. **Choose a mode** (Auto is fine for most searches):
    - `Auto` — automatically picks the best search strategy
