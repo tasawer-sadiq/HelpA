@@ -130,9 +130,6 @@ HelpA/
 ## 📌 Tips
 
 - **Selected text**: If you highlight a word on the page before opening the popup, it may be used as context for your search.
-- **Beginner Mode**: Check the "Beginner mode" box to get simpler, easier-to-understand explanations.
-- **Translate**: Switch to Translate mode and pick a language (Urdu, Hindi, Arabic, etc.) to translate any word or phrase.
-
 ---
 
 ## 🤝 Contributing
