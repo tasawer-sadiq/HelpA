@@ -61,7 +61,7 @@ Since this extension is not yet on the Chrome Web Store, you can load it manuall
 
 4. Click **"Load unpacked"**
 
-5. Select the **HELPA folder** (the one containing `manifest.json`)
+5. Select the **HelpA folder** (the one containing `manifest.json`)
 
 6. The extension icon will appear in your Chrome toolbar ✅
 
