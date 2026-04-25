@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "HelpA",
+  "version": "0.3.0",
+  "description": "A floating browser helper for quick answers without opening extra tabs.",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": [
+    "https://api.duckduckgo.com/*",
+    "https://html.duckduckgo.com/*",
+    "https://api.datamuse.com/*",
+    "https://api.dictionaryapi.dev/*",
+    "https://en.wikipedia.org/*",
+    "https://api.mymemory.translated.net/*",
+    "https://www.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "HelpA",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

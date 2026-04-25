@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpA</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <p class="popup__eyebrow">HelpA</p>
+      <h1 class="popup__title">Quick page assistant</h1>
+      <p id="popup-config" class="popup__config">
+        Free hybrid mode: dictionary, synonyms, wiki, instant answers, and translation.
+      </p>
+
+      <div class="popup__modes">
+        <button class="popup__mode is-active" data-mode="auto" type="button">Auto</button>
+        <button class="popup__mode" data-mode="define" type="button">Define</button>
+        <button class="popup__mode" data-mode="summarize" type="button">Summarize</button>
+        <button class="popup__mode" data-mode="synonyms" type="button">Synonyms</button>
+        <button class="popup__mode" data-mode="compare" type="button">Compare</button>
+        <button class="popup__mode" data-mode="simple" type="button">Explain simply</button>
+        <button class="popup__mode" data-mode="translate" type="button">Translate</button>
+      </div>
+
+      <div class="popup__tools">
+        <label class="popup__toggle">
+          <input id="popup-beginner" type="checkbox" />
+          <span>Beginner mode</span>
+        </label>
+        <label id="popup-language-wrap" class="popup__language" hidden>
+          <span>To</span>
+          <select id="popup-language">
+            <option value="ur">Urdu</option>
+            <option value="hi">Hindi</option>
+            <option value="ar">Arabic</option>
+            <option value="es">Spanish</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+      </div>
+
+      <textarea
+        id="popup-query"
+        class="popup__input"
+        rows="4"
+        placeholder="Ask about a word, concept, or sentence..."
+      ></textarea>
+      <div class="popup__actions">
+        <button id="popup-search" class="popup__search" type="button">Search</button>
+        <button id="popup-google" class="popup__ghost" type="button">Google</button>
+        <button id="popup-settings" class="popup__ghost" type="button">Settings</button>
+      </div>
+      <p id="popup-status" class="popup__status">Ready.</p>
+      <section id="popup-result" class="popup__result">
+        <p class="popup__placeholder">Results will show here.</p>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+  </html>

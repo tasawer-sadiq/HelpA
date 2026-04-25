@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #fffbeb 0%, #fff 100%);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #0f172a;
+}
+
+.popup {
+  width: 380px;
+  padding: 18px;
+}
+
+.popup__eyebrow {
+  margin: 0 0 6px;
+  color: #b45309;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.popup__title {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.popup__config {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(245, 158, 11, 0.12);
+  color: #92400e;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.popup__modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.popup__mode {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 10px;
+  background: rgba(15, 23, 42, 0.06);
+  color: #334155;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.popup__mode.is-active {
+  background: rgba(15, 118, 110, 0.12);
+  color: #0f766e;
+}
+
+.popup__tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.popup__toggle,
+.popup__language {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.popup__language select {
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 10px;
+  padding: 6px 8px;
+  background: rgba(255, 255, 255, 0.92);
+  font: inherit;
+}
+
+.popup__input {
+  width: 100%;
+  min-height: 88px;
+  resize: vertical;
+  padding: 12px 14px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  color: inherit;
+  font: inherit;
+  line-height: 1.45;
+  box-sizing: border-box;
+}
+
+.popup__input:focus {
+  outline: none;
+  border-color: rgba(245, 158, 11, 0.85);
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.14);
+}
+
+.popup__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.popup__search,
+.popup__ghost,
+.popup__google {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.popup__search {
+  flex: 1;
+  color: #fff;
+  background: linear-gradient(135deg, #0f766e, #115e59);
+}
+
+.popup__ghost,
+.popup__google {
+  background: rgba(15, 23, 42, 0.08);
+  color: #0f172a;
+}
+
+.popup__google {
+  background: rgba(245, 158, 11, 0.14);
+}
+
+.popup__status {
+  min-height: 20px;
+  margin: 12px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.popup__result {
+  margin-top: 12px;
+}
+
+.popup__placeholder,
+.popup__card {
+  margin: 0;
+  padding: 15px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.popup__card--error {
+  border-color: rgba(239, 68, 68, 0.25);
+}
+
+.popup__topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.popup__card-title {
+  margin: 0;
+  color: #0f766e;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.popup__badge {
+  flex-shrink: 0;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.1);
+  color: #0f766e;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Source-specific badge colors */
+.popup__badge--duckduckgo {
+  background: rgba(222, 85, 60, 0.12);
+  color: #c44a2a;
+}
+
+.popup__badge--wikipedia {
+  background: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+}
+
+.popup__badge--dictionary {
+  background: rgba(139, 92, 246, 0.12);
+  color: #6d28d9;
+}
+
+.popup__badge--datamuse {
+  background: rgba(16, 185, 129, 0.12);
+  color: #047857;
+}
+
+.popup__card-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.popup__card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.popup__compare {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.popup__compare-card {
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(248, 250, 252, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.popup__compare-label {
+  margin: 0 0 6px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.popup__compare-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
