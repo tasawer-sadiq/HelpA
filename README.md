@@ -2,7 +2,7 @@
 
 > **Stop opening extra tabs just to look up a word.**
 
-![HelpA extension screenshot](HllpA.png)
+![HelpA extension screenshot](HelpA.png)
 
 ---
 
