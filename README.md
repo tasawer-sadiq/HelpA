@@ -49,7 +49,7 @@ Since this extension is not yet on the Chrome Web Store, you can load it manuall
 
 1. **Download or clone this repo**
    ```
-   git clone https://github.com/YOUR_USERNAME/HelpA.git
+   git clone https://github.com/tasawer-sadiq/HelpA.git
    ```
 
 2. **Open Chrome** and go to:
