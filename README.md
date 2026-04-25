@@ -1,6 +1,6 @@
 # HelpA — Quick Search Chrome Extension
 
-> **Stop opening extra tabs just to look up a word.**
+> **Stop opening extra tabs just to look up a term.**
 
 ![HelpA extension screenshot](HelpA.png)
 
