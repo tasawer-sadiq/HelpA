@@ -87,11 +87,11 @@ Since this extension is not yet on the Chrome Web Store, you can load it manuall
 
 4. Press **Enter** or click **Search**
 
-5. Read the short answer — the **colored badge** tells you which source answered:
-   - 🟠 DuckDuckGo
-   - 🔵 Wikipedia
-   - 🟣 Dictionary
-   - 🟢 Datamuse (synonyms)
+5. Read the short answer — the **name tags** tells you which source answered:
+   - DuckDuckGo
+   - Wikipedia
+   - Dictionary
+   - Datamuse (synonyms)
 
 6. If you need more detail, click **"Open full Google search"**
 
